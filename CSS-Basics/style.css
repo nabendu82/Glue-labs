@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
+body{
+    background-color: #ffe6ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+.box-1 h1{
+    color: rgb(128, 0, 128);
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+h3{
+    background-color: lightgoldenrodyellow;
+    color: red;
+    padding: 1%;
+}
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(225, 100%, 15%);
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1.5rem;
+}
+
+#second-p{
+    color: hsl(305, 88%, 20%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.2rem;
+}
+
+#box-model{
+    background-color: lightblue;
+    width: 300px;
+    border: 15px solid green;
+    margin: 20px;
+    /* padding: 50px; */
+
+    /* padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px; */
+
+    /* padding: 20px 15px 20px 15px; */
+    padding: 20px 15px;
+}
+
+.categories{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+    text-decoration: line-through;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
